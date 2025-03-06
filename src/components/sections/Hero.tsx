@@ -13,27 +13,27 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden pt-24 pb-20 min-h-[90vh] flex items-center">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-transparent -z-10" />
+      <div className="absolute inset-0 bg-gradient-to-b from-green-50 to-transparent -z-10" />
       
       {/* Background grid */}
       <div className="absolute inset-0 bg-grid-slate-200/60 bg-[length:40px_40px] -z-10 opacity-20" />
       
       {/* Background blur effect */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-saas-300/30 rounded-full blur-3xl -z-10 animate-pulse-slow" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-blue-300/20 rounded-full blur-3xl -z-10 animate-pulse-slow animation-delay-500" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-green-300/30 rounded-full blur-3xl -z-10 animate-pulse-slow" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-teal-300/20 rounded-full blur-3xl -z-10 animate-pulse-slow animation-delay-500" />
       
       <div className="container mx-auto px-4 lg:px-8 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 items-center">
           <div className={`space-y-8 ${isLoaded ? "opacity-100" : "opacity-0"} transition-opacity duration-700`}>
             <AnimatedCard delay={100} animateOnScroll={false}>
-              <div className="inline-block px-4 py-1.5 rounded-full bg-saas-100 text-saas-800 font-medium text-sm mb-4">
+              <div className="inline-block px-4 py-1.5 rounded-full bg-green-100 text-green-800 font-medium text-sm mb-4">
                 Accelerate Your Development Process
               </div>
             </AnimatedCard>
             
             <AnimatedCard delay={300} animateOnScroll={false}>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Modern Solutions for <span className="bg-clip-text text-transparent bg-gradient-to-r from-saas-700 to-saas-500">Faster Development</span>
+                Modern Solutions for <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-700 to-lime-500">Faster Development</span>
               </h1>
             </AnimatedCard>
             
@@ -46,11 +46,11 @@ export function Hero() {
             
             <AnimatedCard delay={700} animateOnScroll={false}>
               <div className="flex flex-col sm:flex-row gap-4 pt-2">
-                <Button size="lg">Get Started</Button>
+                <Button size="lg" className="bg-green-600 hover:bg-green-700">Get Started</Button>
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="border-saas-200 text-saas-700 hover:bg-saas-50"
+                  className="border-green-200 text-green-700 hover:bg-green-50"
                 >
                   Book a Demo
                 </Button>
@@ -85,7 +85,7 @@ export function Hero() {
               className="relative z-10"
             >
               <div className="relative">
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-tr from-saas-200/50 to-blue-100/30 transform rotate-2 scale-105 blur-sm" />
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-tr from-green-200/50 to-teal-100/30 transform rotate-2 scale-105 blur-sm" />
                 <div className="relative bg-white border border-gray-100 rounded-xl shadow-2xl overflow-hidden">
                   <div className="h-8 bg-gray-50 border-b border-gray-100 flex items-center space-x-1 px-4">
                     <div className="w-3 h-3 rounded-full bg-red-400" />
@@ -118,9 +118,9 @@ export function Hero() {
               >
                 <div className="bg-white rounded-xl shadow-xl p-4 border border-gray-100">
                   <div className="w-64 space-y-3">
-                    <div className="h-4 bg-saas-100 rounded-full w-3/4" />
-                    <div className="h-4 bg-saas-100 rounded-full w-full" />
-                    <div className="h-4 bg-saas-100 rounded-full w-2/3" />
+                    <div className="h-4 bg-green-100 rounded-full w-3/4" />
+                    <div className="h-4 bg-green-100 rounded-full w-full" />
+                    <div className="h-4 bg-green-100 rounded-full w-2/3" />
                   </div>
                 </div>
               </AnimatedCard>

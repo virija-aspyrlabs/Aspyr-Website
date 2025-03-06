@@ -37,9 +37,13 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center">
-          <span className="text-2xl font-heading font-bold bg-clip-text text-transparent bg-gradient-to-r from-saas-700 to-saas-500">
-            DevSwift
-          </span>
+          <div className="h-10 mr-2">
+            <img 
+              src="/lovable-uploads/aspyr-logo.png" 
+              alt="Aspyr Logo" 
+              className="h-full"
+            />
+          </div>
         </a>
 
         {/* Desktop navigation */}
@@ -49,13 +53,13 @@ export function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-600 hover:text-saas-600 transition-colors duration-200 font-medium"
+                className="text-gray-600 hover:text-green-600 transition-colors duration-200 font-medium"
               >
                 {link.name}
               </a>
             ))}
           </div>
-          <Button>Get Started</Button>
+          <Button className="bg-green-600 hover:bg-green-700">Get Started</Button>
         </div>
 
         {/* Mobile menu button */}
@@ -76,13 +80,13 @@ export function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-600 hover:text-saas-600 py-2 transition-colors duration-200 font-medium"
+                className="text-gray-600 hover:text-green-600 py-2 transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.name}
               </a>
             ))}
-            <Button className="mt-2">Get Started</Button>
+            <Button className="mt-2 bg-green-600 hover:bg-green-700">Get Started</Button>
           </div>
         </div>
       )}

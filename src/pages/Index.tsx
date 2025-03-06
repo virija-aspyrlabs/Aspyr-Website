@@ -41,18 +41,18 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-white relative">
-      {/* Modern background pattern with teal hue */}
-      <div className="fixed inset-0 bg-[url('https://images.unsplash.com/photo-1493397212122-2b85dda8106b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=20')] bg-fixed opacity-[0.02] -z-50" />
+      {/* Modern background pattern with green hue */}
+      <div className="fixed inset-0 bg-[url('https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=20')] bg-fixed opacity-[0.02] -z-50" />
       
-      {/* Subtle grid pattern with teal tint */}
+      {/* Subtle grid pattern with green tint */}
       <div className="fixed inset-0 bg-grid-slate-200 bg-[length:20px_20px] opacity-[0.15] -z-40" />
       
-      {/* Background gradient overlay with teal hue */}
-      <div className="fixed inset-0 bg-gradient-to-br from-white via-teal-50/20 to-cyan-50/10 -z-30" />
+      {/* Background gradient overlay with green hue */}
+      <div className="fixed inset-0 bg-gradient-to-br from-white via-green-50/20 to-lime-50/10 -z-30" />
       
-      {/* Animated teal/cyan orbs */}
-      <div className="fixed top-1/4 right-1/3 w-96 h-96 rounded-full bg-teal-100/20 blur-3xl -z-20 animate-pulse-slow" />
-      <div className="fixed bottom-1/3 left-1/4 w-80 h-80 rounded-full bg-cyan-100/20 blur-3xl -z-20 animate-pulse-slow animation-delay-700" />
+      {/* Animated green orbs */}
+      <div className="fixed top-1/4 right-1/3 w-96 h-96 rounded-full bg-green-100/30 blur-3xl -z-20 animate-pulse-slow" />
+      <div className="fixed bottom-1/3 left-1/4 w-80 h-80 rounded-full bg-lime-100/20 blur-3xl -z-20 animate-pulse-slow animation-delay-700" />
       
       <Navbar />
       <main className="flex-grow relative z-10">
@@ -64,6 +64,6 @@ const Index = () => {
       <Footer />
     </div>
   );
-};
+}
 
 export default Index;
