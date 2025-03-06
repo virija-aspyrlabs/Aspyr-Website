@@ -95,7 +95,7 @@ export function Hero() {
                   <div className="p-4">
                     <div className="w-full aspect-video bg-gray-100 rounded-lg overflow-hidden">
                       <img 
-                        src="https://placehold.co/600x400/f4f7fb/a4acb9" 
+                        src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
                         alt="Dashboard preview" 
                         className="w-full h-full object-cover"
                       />

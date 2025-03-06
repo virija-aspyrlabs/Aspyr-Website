@@ -17,7 +17,7 @@ export function Services() {
               <div className="relative">
                 <div className="relative z-10 rounded-xl overflow-hidden border border-gray-100 shadow-xl">
                   <img 
-                    src="https://placehold.co/800x600/f0f9ff/a4acb9" 
+                    src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
                     alt="Insurance services"
                     className="w-full h-auto"
                   />
