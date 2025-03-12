@@ -51,8 +51,8 @@ export function Services() {
           
           <div className="order-1 lg:order-2">
             <AnimatedCard direction="right">
-              <div className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-teal-100 to-cyan-200 text-teal-800 font-medium text-sm mb-4">
-                Industry Solutions
+              <div className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-blue-100 to-cyan-200 text-blue-800 font-medium text-sm mb-4">
+                Resources
               </div>
             </AnimatedCard>
             
@@ -86,7 +86,7 @@ export function Services() {
                 ].map((item, idx) => (
                   <div key={idx} className="flex">
                     <div className="flex-shrink-0 mt-1">
-                      <div className="w-5 h-5 rounded-full bg-gradient-to-br from-teal-100 to-cyan-200 flex items-center justify-center">
+                      <div className="w-5 h-5 rounded-full bg-gradient-to-br from-blue-100 to-cyan-200 flex items-center justify-center">
                         <div className="w-2 h-2 rounded-full bg-teal-500"></div>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ export function Services() {
             </AnimatedCard>
             
             <AnimatedCard direction="right" delay={800}>
-              <Button size="lg" className="bg-gradient-to-r from-teal-500 to-cyan-600 hover:from-teal-600 hover:to-cyan-700 transition-all duration-300">Learn More</Button>
+              <Button size="lg" className="bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 transition-all duration-300">Read More</Button>
             </AnimatedCard>
           </div>
         </div>

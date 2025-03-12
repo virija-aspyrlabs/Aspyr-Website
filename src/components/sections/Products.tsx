@@ -54,7 +54,7 @@ export function Products() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <AnimatedCard>
             <div className="inline-block px-4 py-1.5 rounded-full bg-saas-100 text-saas-800 font-medium text-sm mb-4">
-              Our Products
+              Our Services
             </div>
           </AnimatedCard>
           

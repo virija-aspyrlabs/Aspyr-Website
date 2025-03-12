@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-4 col-span-1 md:col-span-2">
             <div className="flex items-center">
               <img 
-                src="/lovable-uploads/aspyr-logo.png" 
+                src="/lovable-uploads/logo.png" 
                 alt="Aspyr Logo" 
                 className="h-10 mr-2"
               />

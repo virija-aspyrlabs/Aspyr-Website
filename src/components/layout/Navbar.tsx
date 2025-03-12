@@ -6,10 +6,10 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { name: "Home", href: "#" },
-  { name: "Products", href: "#products" },
-  { name: "Services", href: "#services" },
-  { name: "About", href: "#about" },
-  { name: "Contact", href: "#contact" },
+  { name: "Our Solutions", href: "#services" },
+  { name: "Resources", href: "#products" },
+  // { name: "About", href: "#about" },
+  // { name: "Contact Us", href: "#contact" },
 ];
 
 export function Navbar() {
@@ -38,9 +38,9 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center">
           <div className="h-10 mr-2">
-            <img 
-              src="/lovable-uploads/aspyr-logo.png" 
-              alt="Aspyr Logo" 
+            <img
+              src="/lovable-uploads/logo.png"
+              alt="Aspyr Logo"
               className="h-full"
             />
           </div>
@@ -53,15 +53,19 @@ export function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-600 hover:text-green-600 transition-colors duration-200 font-medium"
+                className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium"
               >
                 {link.name}
               </a>
             ))}
           </div>
-          <Button className="bg-green-600 hover:bg-green-700">Get Started</Button>
+          <a
+            href="#contact"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium"
+          >
+            Contact Us
+          </a>
         </div>
-
         {/* Mobile menu button */}
         <button
           className="md:hidden"
@@ -80,13 +84,13 @@ export function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-gray-600 hover:text-green-600 py-2 transition-colors duration-200 font-medium"
+                className="text-gray-600 hover:text-blue-600 py-2 transition-colors duration-200 font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.name}
               </a>
             ))}
-            <Button className="mt-2 bg-green-600 hover:bg-green-700">Get Started</Button>
+            <Button className="mt-2 bg-blue-600 hover:bg-blue-700">Contact Us</Button>
           </div>
         </div>
       )}
