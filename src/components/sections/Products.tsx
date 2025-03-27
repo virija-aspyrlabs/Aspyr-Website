@@ -82,28 +82,28 @@ export function Products() {
       id: 1,
       title: "Product Design",
       description: "Custom design solutions for your business needs.",
-      imageUrl: "/api/placeholder/350/300",
+      imageUrl: "/ai.png",
       fullDescription: "Our product design services offer comprehensive solutions tailored to your specific business requirements. We combine functionality with aesthetics to create products that not only look great but also deliver exceptional user experiences. Our team of experienced designers works closely with you from concept to implementation, ensuring that your vision is realized with precision and creativity."
     },
     {
       id: 2,
       title: "Web Development",
       description: "Building responsive and modern websites.",
-      imageUrl: "/api/placeholder/350/300",
+      imageUrl: "/data.png",
       fullDescription: "Our web development team creates cutting-edge, responsive websites that work seamlessly across all devices. We focus on user experience, performance, and scalability to deliver websites that not only look beautiful but also function perfectly. Using the latest technologies and frameworks, we build custom solutions that align with your business goals."
     },
     {
       id: 3,
       title: "Digital Marketing",
       description: "Strategies to boost your online presence.",
-      imageUrl: "/api/placeholder/350/300",
+      imageUrl: "/auto.png",
       fullDescription: "Our digital marketing services are designed to increase your online visibility and drive meaningful engagement with your target audience. We develop comprehensive strategies that incorporate SEO, content marketing, social media, and paid advertising to create a cohesive approach to your digital presence."
     },
     {
       id: 4,
       title: "Product Design",
       description: "Custom design solutions for your business needs.",
-      imageUrl: "/api/placeholder/350/300",
+      imageUrl: "/enterprise.png",
       fullDescription: "Our product design services offer comprehensive solutions tailored to your specific business requirements. We combine functionality with aesthetics to create products that not only look great but also deliver exceptional user experiences. Our team of experienced designers works closely with you from concept to implementation, ensuring that your vision is realized with precision and creativity."
     },
     // {
