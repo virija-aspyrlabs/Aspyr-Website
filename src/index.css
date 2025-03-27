@@ -45,6 +45,11 @@
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    
+    /* Aspyr specific colors */
+    --aspyr-green: 134 49% 39%;
+    --aspyr-light-green: 84 51% 51%;
   }
 
   .dark {

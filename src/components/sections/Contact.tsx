@@ -93,7 +93,7 @@ export function Contact() {
                       </div>
                       <div className="ml-4">
                         <p className="font-medium">Phone</p>
-                        <p className="opacity-80">+1 (555) 000-0000</p>
+                        <p className="opacity-80">848-459-4333</p>
                       </div>
                     </div>
                   </AnimatedCard>
@@ -107,7 +107,7 @@ export function Contact() {
                       </div>
                       <div className="ml-4">
                         <p className="font-medium">Email</p>
-                        <p className="opacity-80">contact@devswift.com</p>
+                        <p className="opacity-80">aspyrlabs.com</p>
                       </div>
                     </div>
                   </AnimatedCard>
@@ -121,8 +121,12 @@ export function Contact() {
                         </svg>
                       </div>
                       <div className="ml-4">
-                        <p className="font-medium">Location</p>
-                        <p className="opacity-80">San Francisco, CA</p>
+                      <p className="font-medium">Location</p>
+                        <p className="opacity-80">One West - A Terminus Project</p>
+                        <p className="opacity-80">Narsingi Nanakramguda Service Rd,</p>
+                        <p className="opacity-80">Financial District, Nanakramguda</p>
+                        <p className="opacity-80">Makthakousarali, Telangana</p>
+                        <p className="opacity-80">500008</p>
                       </div>
                     </div>
                   </AnimatedCard>

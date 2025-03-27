@@ -29,15 +29,15 @@ export function Navbar() {
   return (
     <nav
       className={cn(
-        "fixed w-full top-0 z-50 transition-all duration-300 px-4 lg:px-8",
+        "fixed w-full top-0 z-50 transition-all duration-300 ",
         isScrolled
           ? "py-3 bg-white/80 backdrop-blur-md shadow-sm"
           : "py-5 bg-transparent"
       )}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-8xl w-full mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex items-center">
-          <div className="h-10 mr-2">
+          <div className="h-10 mr-2 ml-16">
             <img
               src="/lovable-uploads/logo.png"
               alt="Aspyr Logo"
@@ -47,7 +47,7 @@ export function Navbar() {
         </a>
 
         {/* Desktop navigation */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-8 mr-10">
           <div className="flex space-x-8">
             {navLinks.map((link) => (
               <a
